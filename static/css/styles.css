@@ -1,0 +1,101 @@
+.jumbotron {
+    background: url("https://media0.giphy.com/media/Qvp6Z2fidQR34IcwQ5/giphy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    min-height: 90vh;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 1px black;
+    background-position: center;
+    background-color: #000;
+}
+
+.product-jumbotron {
+    background: url("https://media2.giphy.com/media/l4XfgLyXAnyzCh7vfY/giphy.gif?cid=ecf05e47efeqy4rc9nv88wimspl1b2ej92sq4tgddv4vdc6t&rid=giphy.gif&ct=g");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 1px black;
+    background-position: center;
+    background-color: #00003f;
+}
+
+.product-tab {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 1px black;
+    background-position: center;
+    background-color: #00003f;
+}
+
+.carousel-product-image {
+    width: 100%;
+    height: 40vh;
+    object-fit: contain;
+    padding: 0;
+    margin: 0;
+}
+
+
+.long-and-truncated {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-shadow {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card-shadow:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-product-image {
+    width: 100%;
+    height: 20vh;
+    min-height: 200px;
+    object-fit: contain;
+    padding: 0;
+    margin: 0;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+}
+
+button a {
+    color: white !important;
+}
+
+.card-container {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding : 10px;
+}
+
+.checkout-done {
+    background: url("https://media2.giphy.com/media/3oKIPCYb0V5FHrYvKM/giphy.gif?cid=ecf05e4756xg3mw2d67q7aw9vdehpv9nj6k55bhdi6lhmo02&rid=giphy.gif&ct=g");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 1px black;
+    background-position: center;
+    background-color: #fff;
+    margin-bottom: 0%;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background: #fff;
+    color: #00009f;
+}
